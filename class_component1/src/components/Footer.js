@@ -1,11 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Footer() {
-  return (
-    <div>
-      <h2>Footer Component</h2>
-    </div>
-  );
+class Footer extends Component {
+  render() {
+    return (
+      <div>
+        <h2>Footer Component</h2>
+      </div>
+    );
+  }
 }
 
 export default Footer;
