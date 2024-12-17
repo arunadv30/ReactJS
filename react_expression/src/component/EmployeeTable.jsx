@@ -101,12 +101,11 @@ let EmployeeTable = () => {
     { id: 99, name: "Dotti", gender: "Female" },
     { id: 100, name: "Clarisse", gender: "Female" },
   ];
-
   return (
     <div>
       <h1>Employee Details</h1>
       {/* <pre>{JSON.stringify(emp)}</pre> */}
-      <table>
+      <table border={2}>
         <thead>
           <tr>
             <th>Id</th>
