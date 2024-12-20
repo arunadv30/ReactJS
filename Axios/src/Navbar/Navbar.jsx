@@ -11,6 +11,16 @@ const Navbar = () => {
         <div className="ml-auto">
           <ul className="navbar-nav">
             <li>
+              <Link to="/registration" className="nav-link">
+                Registration
+              </Link>
+            </li>
+            <li>
+              <Link to="/login" className="nav-link">
+                Login
+              </Link>
+            </li>
+            <li>
               <Link to="/index" className="nav-link">
                 Home
               </Link>
