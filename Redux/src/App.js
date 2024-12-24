@@ -1,11 +1,10 @@
 import React from "react";
-import Registration from "./Components/Registration";
+import Message from "./Message/Message";
 
 const App = () => {
   return (
     <div>
-      <h1>App Component</h1>
-      <Registration />
+      <Message />
     </div>
   );
 };
