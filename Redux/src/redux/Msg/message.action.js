@@ -1,0 +1,13 @@
+//Action types
+let GM = "GM";
+let GN = "GN";
+
+//Actions
+let gmAction = () => {
+  return { type: GM };
+};
+let gnAction = () => {
+  return { type: GN };
+};
+
+export { gmAction, gnAction, GM, GN };
